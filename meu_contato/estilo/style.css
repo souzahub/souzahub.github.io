@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+h2::before {
+  content: " 🐅";
+  display: block;
+}
+
 body{
     /* width: 100%; */
     height: 100vh;    
