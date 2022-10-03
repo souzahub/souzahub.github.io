@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Formulário de Contato</h1>
+    <form
+      action="https://api.sheetmonkey.io/form/aN9L5He58tG2jHYD5Wbyn7"
+      method="POST"
+      class="form"
+    >
+      <label for="name">Nome</label>
+      <input type="text" name="name" id="name" required />
+
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required />
+
+      <label for="tamanho">Tamanho da Folha ( Ex: A4, A3 .. )</label>
+      <input type="tamanho" name="tamanho" id="tamanho" required />
+
+      <label for="message">Mensagem</label>
+      <textarea name="message" id="message" required></textarea>
+      <input type="hidden" name="_captcha" value="false" />
+      <input
+        type="hidden"
+        name="_next"
+        value="https://souzahub.github.io/form_luan/obrigado.html"
+      />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
