@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+h1::before {
+  content: "📧";
+  display: block;
+}
+
 h2::before {
   content: " 🐅";
   display: block;
