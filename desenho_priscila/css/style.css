@@ -696,7 +696,7 @@ padding: 10px 0;
 /* Logo, Site Name, Site Slogan
 ---------------------------------- */
 .logo {
-	margin: 10px 0px 10px 0;
+	margin: 10px 10px 10px 0;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -769,8 +769,8 @@ border-radius: 50%;
 	text-align: center;
 	padding: 4px;
 }
-.social-links li.twitter a:hover {
-	color: #55acee;
+.social-links li.instagram a:hover {
+	color: rgb(228, 52, 102);
 }
 .social-links li.skype a:hover {
 	color: #00aff0;
