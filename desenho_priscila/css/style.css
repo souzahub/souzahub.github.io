@@ -148,11 +148,11 @@ blockquote {
 	z-index: 2;
 }
 .subfooter {
-	background-color: #db680a;
+	background-color: #7ba05b;
 	padding: 40px 0;
 }
 .subfooter a {
-color: #e27215;
+color: #7ba05b;
 }
 .section {
 	background-color: #ffffff;
@@ -170,12 +170,12 @@ color: #e27215;
 }
 .btn-primary {
 color: #fff;
-background-color: #db680a;
+background-color: #5c813c;
 border:0px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
 color: #fff;
-background-color: #db680a;
+background-color: #5c813c;
 border:0px;
 }
 .transprant-bg {
@@ -359,12 +359,12 @@ text-align:center;
 }
 .btn-default {
 	color: #FFFFFF;
-	background: #db680a;
+	background: #5c813c;
 	border: 0;
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #db680a;
+	background-color: #5c813c;
 	border: 0;
 }
 
@@ -436,8 +436,8 @@ text-align:center;
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #db680a;
-	border-color: #db680a;
+	background-color: #7ba05b;
+	border-color: #7ba05b;
 	color: #ffffff;
 }
 .nav-pills > li > a {
@@ -526,11 +526,11 @@ padding: 10px 0;
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #db680a;
+	color: #7ba05b;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #db680a;
+	color: #7ba05b;
 }
 
 /* carousel */
@@ -708,7 +708,7 @@ padding: 10px 0;
 	float: left;
 }
 .brand {
-	font-size: 38px;
+	font-size: 25px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -779,13 +779,13 @@ border-radius: 50%;
 	color: #0976b4;
 }
 .social-links li.googleplus a:hover {
-	color: #dd4b39;
+	color: #7ba05b;
 }
 .social-links li.youtube a:hover {
 	color: #b31217;
 }
 .social-links li.flickr a:hover {
-	color: #e66a05;
+	color: #7ba05b;
 }
 .social-links li.facebook a:hover {
 	color: #3b5998;
@@ -821,7 +821,7 @@ border-radius: 50%;
 }
 .isotope-item .btn-default {
 	color: #FFFFFF;
-	background: rgba(219, 37, 5, 0.69);
+	background:  rgba(90, 223, 78, 0.493);
 	margin-top: -36px;
 	z-index: 2;
 	position: relative;
@@ -850,7 +850,7 @@ border-radius: 50%;
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgba(219, 37, 5, 0.69);
+	background-color: rgba(90, 223, 78, 0.493);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
