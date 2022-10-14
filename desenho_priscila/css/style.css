@@ -57,10 +57,10 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: #db680a;
+	color: #D5B69E;
 }
 .colored {
-	color: #db680a;
+	color: #D5B69E;
 }
 a {
 	color: #55acee;
@@ -148,11 +148,11 @@ blockquote {
 	z-index: 2;
 }
 .subfooter {
-	background-color: #7ba05b;
-	padding: 40px 0;
+	background-color: #67816D;
+	padding: 10px 0;
 }
 .subfooter a {
-color: #7ba05b;
+color: #D5B69E;
 }
 .section {
 	background-color: #ffffff;
@@ -231,7 +231,7 @@ border:0px;
 	z-index: 2;
 	width: 100%;
 	height: 100%;
-	background-color: #db680a;
+	background-color: #D5B69E;
 }
 .transprant-bg.blue:after {
 	background-color: rgba(85, 172, 238, 0.7);
@@ -397,7 +397,7 @@ text-align:center;
 	display: inline-block;
 	width: 100%;
 	background-color: #fff;
-	color: #db680a;
+	color: #D5B69E;
 	position: relative;
 	text-decoration: none;
 	border: #ECECEC 1px solid;
@@ -423,7 +423,7 @@ text-align:center;
 .panel-heading a:hover {
 	text-decoration: none;
 	background-color: #FFFFFF;
-	color: #db680a;
+	color: #D5B69E;
 }
 .panel-title a i {
 	padding-right: 10px;
@@ -436,8 +436,8 @@ text-align:center;
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #7ba05b;
-	border-color: #7ba05b;
+	background-color: #67816D;
+	border-color: #67816D;
 	color: #ffffff;
 }
 .nav-pills > li > a {
@@ -526,11 +526,11 @@ padding: 10px 0;
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #7ba05b;
+	color: #67816D;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #7ba05b;
+	color: #67816D;
 }
 
 /* carousel */
@@ -779,13 +779,13 @@ border-radius: 50%;
 	color: #0976b4;
 }
 .social-links li.googleplus a:hover {
-	color: #7ba05b;
+	color: #67816D;
 }
 .social-links li.youtube a:hover {
 	color: #b31217;
 }
 .social-links li.flickr a:hover {
-	color: #7ba05b;
+	color: #67816D;
 }
 .social-links li.facebook a:hover {
 	color: #3b5998;
@@ -892,4 +892,27 @@ border-radius: 50%;
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+
+#footerwrap {
+	background: #D2BDA3;
+	padding: 25px 0 15px 0;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+#footerwrap span.copyright {
+	line-height: 40px;
+	color: #FFF;
+	font-weight: 400;
+}
+#footerwrap span.copyright a {
+	color: rgb(255, 246, 236);
+	border-bottom: 1px dotted;
+}
+#footerwrap span.copyright a:hover {
+	color: #ffbf00;
+	text-decoration: none;
+}
+#footerwrap h4 {
+	color: white;
 }
