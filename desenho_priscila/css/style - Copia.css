@@ -1,22 +1,14 @@
-
-/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,700);
-@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300); 
-@import url(https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap); */
-
-@font-face {
-	font-family: 'Brandon Grot W01 Light';
-    src: url('font/Brandon\ Grot\ W01\ Light.ttf');
-    }	
-
+/* Author:WebThemez
+ * Author URI:http://webthemez.com
+ * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+ */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300);
 body {
-	font-family: 'Brandon Grot W01 Light', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .brand {
-	font-family: 'Brandon Grot W01 Light', sans-serif;
-}
-
-p{	 
-	font-family: 'Brandon Grot W01 Light', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 html,
 body {
@@ -29,14 +21,12 @@ body {
 	background-color: #ffffff;
 	position: relative;
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family: 'Brandon Grot W01 Light', sans-serif;	
 	color: #333333;
 }
 h1 {
