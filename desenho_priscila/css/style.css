@@ -6,7 +6,26 @@
 @font-face {
 	font-family: 'Brandon Grot W01 Light';
     src: url('font/Brandon\ Grot\ W01\ Light.ttf');
-    }	
+    }
+	
+#topBtn {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 30px;
+z-index: 99;
+border: none;
+outline: none;
+background-color: #555;
+color: white;
+cursor: pointer;
+padding: 15px;
+border-radius: 10px;
+}
+
+ #topBtn:hover {
+ background-color: #777;
+}
 
 body {
 	font-family: 'Brandon Grot W01 Light', sans-serif;
