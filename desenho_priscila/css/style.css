@@ -850,7 +850,7 @@ border-radius: 50%;
 }
 .isotope-item .btn-default {
 	color: #FFFFFF;
-	background:  rgba(90, 223, 78, 0.493);
+	background:  #67816D;
 	margin-top: -36px;
 	z-index: 2;
 	position: relative;
@@ -879,7 +879,7 @@ border-radius: 50%;
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgba(90, 223, 78, 0.493);
+	background-color: rgba(130, 165, 127, 0.301);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
