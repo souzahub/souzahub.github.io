@@ -1,7 +1,3 @@
-/* Preço de Veículo - https://precodeveiculo.netlify.app
- * https://github.com/giovanigenerali/precodeveiculo
- * Developed by Giovani Generali - https://github.com/giovanigenerali
- */
 const fipeAPI = "https://veiculos.fipe.org.br/api/veiculos";
 const referencia = document.getElementById("referencia");
 const tipoVeiculo = document.getElementById("tipo_veiculo");
