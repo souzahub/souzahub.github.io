@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Exemplos de Cards</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        .container {
+            padding-bottom: 5px;
+        }
+
+        .footer {
+            background-color: #333;
+            padding: 10px 0;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer .social-icons i {
+            font-size: 24px;
+        }
+
+        .card-title,
+        .card-text {
+            color: black;
+        }
+
+        
+        /* Adicione um espaçamento inferior maior ao elemento que contém os cards */
+        .cards-container {
+            margin-bottom: 50px; /* Aumente o valor conforme necessário */
+        }
+
+    /* Botão de rolagem para cima */
+    .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            font-size: 24px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            width: 40px; /* Defina a mesma largura e altura */
+            height: 40px; /* para torná-lo um círculo */
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 999; /* Defina um z-index maior para o botão */
+        }
+
+        .scroll-to-top:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="src/img/logo.png" alt="Your Logo" height="50"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FIm da Navegação -->
+    
+    <div class="container mt-5">
+        <div class="row cards-container">
+            <!-- card 1 -->
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card flex-fill w-100">
+                    <img src="src/img/00.jpg" class="card-img-top" alt="Imagem do Card" height="170px">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 1</h5>
+                        <p class="card-text">Este é um exemplo de card com Bootstrap.</p>
+                        <a href="#" onclick="ajaxRequest(MainForm.UniHTMLFrame1, 'imagemModal1',[])"
+                            class="btn btn-primary" data-toggle="modal" data-target="#imagemModal1">Visualiza</a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do bloco repetido -->
+
+            <!-- card 1 -->
+            <div class="modal fade" id="imagemModal1" tabindex="-1" role="dialog" aria-labelledby="imagemModal1Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="imagemModal1Label">Imagem do Card 1</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="src/img/001.jpg" class="img-fluid" alt="Imagem do Card 1" height="100%"
+                                width="100%">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do modal repetido -->
+
+            <!-- card 2 -->
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card flex-fill w-100">
+
+                    <img src="src/img/00.jpg" class="card-img-top" alt="Imagem do Card" height="170px">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 2</h5>
+                        <p class="card-text">Este é um exemplo de card com Bootstrap.</p>
+                        <a href="#" onclick="ajaxRequest(MainForm.UniHTMLFrame1, 'imagemModal2',[])"
+                            class="btn btn-primary" data-toggle="modal" data-target="#imagemModal2">Visualiza</a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do bloco repetido -->
+
+            <!-- card 2 -->
+            <div class="modal fade" id="imagemModal2" tabindex="-1" role="dialog" aria-labelledby="imagemModal1Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="imagemModal1Label">Imagem do Card 2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="src/img/00.jpg" class="img-fluid" alt="Imagem do Card 2" height="100%"
+                                width="100%">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do modal repetido -->
+            <!-- card 2 -->
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card flex-fill w-100">
+
+                    <img src="src/img/00.jpg" class="card-img-top" alt="Imagem do Card" height="170px">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 2</h5>
+                        <p class="card-text">Este é um exemplo de card com Bootstrap.</p>
+                        <a href="#" onclick="ajaxRequest(MainForm.UniHTMLFrame1, 'imagemModal2',[])"
+                            class="btn btn-primary" data-toggle="modal" data-target="#imagemModal2">Visualiza</a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do bloco repetido -->
+
+            <!-- card 2 -->
+            <div class="modal fade" id="imagemModal2" tabindex="-1" role="dialog" aria-labelledby="imagemModal1Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="imagemModal1Label">Imagem do Card 2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="src/img/00.jpg" class="img-fluid" alt="Imagem do Card 2" height="100%"
+                                width="100%">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do modal repetido -->
+
+            <!-- card 2 -->
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card flex-fill w-100">
+
+                    <img src="src/img/00.jpg" class="card-img-top" alt="Imagem do Card" height="170px">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 2</h5>
+                        <p class="card-text">Este é um exemplo de card com Bootstrap.</p>
+                        <a href="#" onclick="ajaxRequest(MainForm.UniHTMLFrame1, 'imagemModal2',[])"
+                            class="btn btn-primary" data-toggle="modal" data-target="#imagemModal2">Visualiza</a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do bloco repetido -->
+
+            <!-- card 2 -->
+            <div class="modal fade" id="imagemModal2" tabindex="-1" role="dialog" aria-labelledby="imagemModal1Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="imagemModal1Label">Imagem do Card 2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="src/img/00.jpg" class="img-fluid" alt="Imagem do Card 2" height="100%"
+                                width="100%">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do modal repetido -->
+
+            <!-- card 2 -->
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card flex-fill w-100">
+
+                    <img src="src/img/00.jpg" class="card-img-top" alt="Imagem do Card" height="170px">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 2</h5>
+                        <p class="card-text">Este é um exemplo de card com Bootstrap.</p>
+                        <a href="#" onclick="ajaxRequest(MainForm.UniHTMLFrame1, 'imagemModal2',[])"
+                            class="btn btn-primary" data-toggle="modal" data-target="#imagemModal2">Visualiza</a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do bloco repetido -->
+
+            <!-- card 2 -->
+            <div class="modal fade" id="imagemModal2" tabindex="-1" role="dialog" aria-labelledby="imagemModal1Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="imagemModal1Label">Imagem do Card 2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="src/img/00.jpg" class="img-fluid" alt="Imagem do Card 2" height="100%"
+                                width="100%">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do modal repetido -->
+
+            <!-- card 2 -->
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card flex-fill w-100">
+
+                    <img src="src/img/00.jpg" class="card-img-top" alt="Imagem do Card" height="170px">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 2</h5>
+                        <p class="card-text">Este é um exemplo de card com Bootstrap.</p>
+                        <a href="#" onclick="ajaxRequest(MainForm.UniHTMLFrame1, 'imagemModal2',[])"
+                            class="btn btn-primary" data-toggle="modal" data-target="#imagemModal2">Visualiza</a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do bloco repetido -->
+
+            <!-- card 2 -->
+            <div class="modal fade" id="imagemModal2" tabindex="-1" role="dialog" aria-labelledby="imagemModal1Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="imagemModal1Label">Imagem do Card 2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="src/img/00.jpg" class="img-fluid" alt="Imagem do Card 2" height="100%"
+                                width="100%">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do modal repetido -->
+
+
+        </div>
+    </div>
+
+    <!-- Botão de rolagem para cima -->
+    <button class="scroll-to-top" onclick="scrollToTop()">&#8593;</button>
+    <!-- Fim do botão de rolagem para cima -->
+
+    <!-- Rodapé -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Adicione ícones da Font Awesome para as redes sociais -->
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Include Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Função para rolar para o topo da página
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Exibir o botão de rolagem quando o usuário rolar para baixo
+        window.addEventListener('scroll', function () {
+            var scrollButton = document.querySelector('.scroll-to-top');
+            if (window.scrollY > 300) {
+                scrollButton.style.display = 'block';
+            } else {
+                scrollButton.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
