@@ -361,6 +361,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script>
+        
+        // Função bloqueia acesso ao link
+        document.getElementById("contato").addEventListener("click", function(event) {
+        event.preventDefault(); // Impede o comportamento padrão do clique no link
+        alert("O clique foi impedido!");
+        });
+
         // Função para rolar para o topo da página
         function scrollToTop() {
             window.scrollTo({
