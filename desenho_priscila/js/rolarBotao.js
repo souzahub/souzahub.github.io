@@ -9,8 +9,14 @@ function scrollFunction() {
   }
 }
 
-// Quando o usuário clicar no botão, role para o topo
+// Quando o usuário clicar no botão, role suavemente para o topo
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  // Velocidade de rolagem em pixels por segundo (quanto menor, mais lento)
+  var scrollSpeed = 15;
+  var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+
+  if (currentScroll > 0) {
+    window.requestAnimationFrame(topFunction);
+    window.scrollTo(0, currentScroll - currentScroll / scrollSpeed);
+  }
 }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adicionando o link para o Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #67816D; /* Altera a cor de fundo para branco */
+        }
+        .navbar {
+            background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+            height: 200px;
+        }
+        .navbar-brand {
+            color: white;
+            font-size: 1.5rem;
+        }
+        .nav-link {
+            color: white;
+            margin-right: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .message {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .custom-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .btn-primary {
+            background-color: #5c813c; /* Altera a cor de fundo do botão para #5c813c */
+            border-color: #5c813c; /* Altera a cor da borda do botão para #5c813c */
+        }
+    </style>
+    <title>Aviso</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container custom-container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="message">
+                    <h2>No momento as turmas estão fechadas!</h2>
+                    <p>Caso deseje, preencha o formulário para a lista de espera.</p>
+                    <!-- Botão usando Bootstrap -->
+                    <a href="#" class="btn btn-primary" style="background-color: #5c813c; border-color: #5c813c;">Clique aqui para acessar ao formulário</a>
+                    
+                    <div class="btn-container">
+                        <a href="#" class="btn btn-secondary">Voltar a página anterior</a>
+                    </div>                    
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!-- Adicionando o link para o script do Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
