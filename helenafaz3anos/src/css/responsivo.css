@@ -1,6 +1,7 @@
 @media (max-width: 1200px) {
     body {
-       background-color: #f44336;
+        background-color: #f77adc63;
+       /* background-color: #f44336; */
     }
 
     .fundo-video {
@@ -30,7 +31,7 @@
     }
 
     .container .botao-trailer {
-        background-color: #263238;
+        background-color: #f77adc70;
     }
 }
 

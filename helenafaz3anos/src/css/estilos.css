@@ -30,7 +30,8 @@ body {
 }
 
 .cabecalho nav li a:hover {
-    background-color: #d5011d;
+    background-color: #f77adcd2;  
+    /* background-color: #d5011d; */
 }
 
 .container {
@@ -54,7 +55,8 @@ body {
 }
 
 .container .botao-trailer {
-    background-color: #ff0021;
+    /* background-color: #ff0021; */
+    background-color: #f77adcd2;
     color: #ffffff;
     padding: 15px;
     font-size: 18px;
@@ -116,7 +118,8 @@ body {
 
 .fechar-modal {
     background-color: #ffffff;
-    color: #f03a17;
+    color: #070707a6;
+    /* color: #f03a17; */
     font-weight: bold;
     font-size: 20px;
     width: 40px;
