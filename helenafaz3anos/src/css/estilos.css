@@ -2,6 +2,14 @@ body {
     font-family: 'Poppins';
 }
 
+h2, h1 {
+    /* background-color: black; */
+    padding: 0px;
+    border-radius: 10px;
+    display: inline-block;
+    text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -57,6 +65,20 @@ body {
 .container .botao-trailer {
     /* background-color: #ff0021; */
     background-color: #f77adcd2;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+
+.container .botao-formulario {
+    /* background-color: #ff0021; */
+    background-color: #032db944;
+    margin-top: 10px;
     color: #ffffff;
     padding: 15px;
     font-size: 18px;
