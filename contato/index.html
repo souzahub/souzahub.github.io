@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nenhum resultado encontrado</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+
+          #back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            transition: background-color 0.5s ease;
+            color: #333;
+        }
+
+        .no-results-container {
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .no-results-heading {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .no-results-image {
+            max-width: 300px;
+            max-height: 300px;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .site-description {
+            text-align: center;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #000;
+        }
+
+        .contact-form h4 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-form p {
+            text-align: center;
+        }
+
+        .div-form {
+            margin-bottom: 20px;
+        }
+
+        .div-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .div-form input,
+        .div-form-multiple input,
+        .div-form-multiple select,
+        .div-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .div-form-multiple {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .div-form-multiple div {
+            flex-basis: 48%;
+        }
+
+        .div-form-multiple div input,
+        .div-form-multiple div select {
+            width: 100%;
+        }
+
+        .div-form textarea {
+            height: 150px;
+        }
+
+        .wpcf7-submit {
+            width: 100%;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .wpcf7-submit:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #f9f9f9;
+            padding: 20px 0;
+            text-align: center;
+            color: #333;
+        }
+
+        footer a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .dark-mode .no-results-heading {
+            color: #fff;
+        }
+
+        .dark-mode .site-description,
+        .dark-mode .wpb_wrapper {
+            color: #fff;
+        }
+
+        .dark-mode footer {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body class="light-mode">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#imagem">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="imagem" class="no-results-container">
+        <h1 class="no-results-heading"> </h1>
+        <img class="no-results-image" src="https://picsum.photos/300" alt="Imagem aleatória">
+        <p class="site-description">Bem-vindo ao nosso site. Aqui você pode encontrar informações úteis e recursos valiosos
+            sobre uma ampla gama de tópicos. Fique à vontade para explorar e descobrir mais sobre o que temos a oferecer.
+        </p>
+    </div>
+
+    <div id="contato" class="contact-form">
+        <h4>Contato</h4>
+        <p>Canal de atendimento exclusivo para consumidores da Frinense Alimentos.</p>
+        <form action="/contato/#wpcf7-f5244-p1437-o1" method="post" class="wpcf7-form init" aria-label="Formulários de contato"
+            novalidate="novalidate" data-status="init">
+            <div class="div-form">
+                <label>Seu nome</label>
+                <input type="text" name="your-name">
+            </div>
+            <div class="div-form-multiple">
+                <div>
+                    <label>Seu e-mail</label>
+                    <input type="email" name="your-email">
+                </div>
+                <div>
+                    <label>Celular WhatsApp</label>
+                    <input type="tel" name="your-celular">
+                </div>
+            </div>
+            <div class="div-form-multiple">
+                <div>
+                    <label>Estado e Região</label>
+                    <input type="text" name="your-estado">
+                </div>
+                <div>
+                    <label>Escolha o campo abaixo</label>
+                    <select name="menu-670">
+                        <option value="Reclamação">Reclamação</option>
+                        <option value="Financeiro">Financeiro</option>
+                        <option value="Compras">Compras</option>
+                    </select>
+                </div>
+            </div>
+            <label>Mensagem</label>
+            <textarea name="your-message"></textarea>
+            <input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Enviar">
+            <div class="wpcf7-response-output" aria-hidden="true"></div>
+            <span class="wpa_hidden_field" style="display:none;height:0;width:0;"><label>WPA <input type="text"
+                        name="djovbr3580" value="68943"></label></span>
+        </form>
+    </div>
+
+    <div class="custom-control custom-switch text-center">
+        <input type="checkbox" class="custom-control-input" id="darkSwitch">
+        <label class="custom-control-label" for="darkSwitch">Modo noturno</label>
+    </div>
+
+    <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" style="display: none;">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+     
+    <footer>
+        Siga-nos nas redes sociais:
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+    <script>
+    // Modo noturno    
+       const darkSwitch = document.getElementById('darkSwitch');
+        darkSwitch.addEventListener('change', () => {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                localStorage.removeItem('darkMode');
+            }
+        });
+
+        if (localStorage.getItem('darkMode') === 'enabled') {
+            document.body.classList.add('dark-mode');
+            darkSwitch.checked = true;
+        }
+
+        // Botao scroll
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("back-to-top").style.display = "block";
+            } else {
+                document.getElementById("back-to-top").style.display = "none";
+            }
+        }
+
+        document.getElementById("back-to-top").addEventListener("click", function (e) {
+            e.preventDefault();
+            scrollToTop(600);
+        });
+
+        function scrollToTop(scrollDuration) {
+            var scrollStep = -window.scrollY / (scrollDuration / 15);
+            var scrollInterval = setInterval(function () {
+                if (window.scrollY !== 0) {
+                    window.scrollBy(0, scrollStep);
+                } else {
+                    clearInterval(scrollInterval);
+                }
+            }, 15);
+        }
+
+    </script>
+    
+</body>
+
+</html>
