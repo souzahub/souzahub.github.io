@@ -1,0 +1,52 @@
+<!-- Imagem ANIMAL INICIO----------------------------------------------------------------------------------------------->
+						<div class="col-sm-6 col-md-3 isotope-item app-development"> <!-- Imagens ANIMAIS  -->
+							<div class="image-box">
+								<div class="overlay-container">
+									<img src="images/pet/arara.webp" alt="">
+									<a class="overlay" data-toggle="modal" data-target="#project-12">
+										<i class="fa fa-search-plus"></i>
+									</a>
+								</div>
+								<a class="btn btn-default btn-block" data-toggle="modal"
+									data-target="#project-12">Arara</a>
+								<!-- Imagem Cachorro   -->
+							</div>
+							<!-- Modal -->
+							<div class="modal fade" id="project-12" tabindex="-1" role="dialog"
+								aria-labelledby="project-12-label" aria-hidden="true">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal"><span
+													aria-hidden="true">&times;</span><span
+													class="sr-only">Fechar</span></button>
+											<h4 class="modal-title" id="project-12-label">Arara</h4>
+										</div>
+										<div class="modal-body">
+
+											<div class="row">
+												<div class="col-md-12">
+													<img src="images/pet/arara.webp" alt="">
+													<br />
+													<h3>Arara</h3>
+													<p>Desenho realizado em tamanho A4 (21.0x29.7cm) com técnicas de
+														realismo a grafite.
+														Retratar a fauna é sempre satisfatório, cada riqueza de
+														detalhe destas pequenas
+														criaturas encantam.
+														Ano: 2019
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-sm btn-default"
+												data-dismiss="modal">Fechar</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Modal end -->
+						</div>
+
+						<!-- Imagem ANIMAL FIM ----------------------------------------------------------------------------------------------->
